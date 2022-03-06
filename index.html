@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="btn1" class="sidebar-btn">&#9776;</button>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <div class="btn-div">
+      <button class="btn2 merge">Merge Sort</button>
+      <button class="btn2 selection">Selection Sort</button>
+      <button class="btn2 bubble">Bubble Sort</button>
+      <button class="btn2 insertion">Insertion Sort</button>
+      <button class="btn2 quick">Quick Sort</button>
+    </div>
+  </div>
+  <div id="main">
+    <h1 id="title"></h1>
+    <div class="bar-main-div">
+      <div class="barslider">
+        <div class="slider-div">
+          Speed : &nbsp;<input id="myRange" type="range" min="20" max="300" value="100" class="slider1">
+        </div>
+        <div id="bar-div" class="bar-div-class">
+        </div>
+      </div>
+    </div>
+    <button class="newa" id="new">New Array!</button>
+    <button class="btn-sort" id="sort">Sort!</button>
+  </div>
+
+  <script src="./javascript/sidebar.js"></script>
+  <script src="./javascript/genbar.js"></script>
+  <script src="./javascript/gen.js"></script>
+  <script src="./javascript/bubble.js"></script>
+  
+</body>
+</html>
