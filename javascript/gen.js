@@ -54,18 +54,25 @@ document.querySelector('.insertion').addEventListener('click', () => {
   console.log(selectedbtn)
 })
 
-document.querySelector('#sort').addEventListener('click', () => {
+
+
+
+document.querySelector('#sort').addEventListener('click', async () => {
   if(selectedbtn == "bubble")
   {
     bubble().then();
   }
   else if(selectedbtn == "merge")
   {
-    merge().then();
+    let arr = document.querySelectorAll('.bar')
+    let r = parseInt(arr.length) - 1
+    mergesort(arr, 0, r).then();
   }
   else if(selectedbtn == "quick")
   {
-    quick().then();
+    let arr = document.querySelectorAll('.bar')
+    let r = parseInt(arr.length) - 1
+    quick(arr, 0, r).then();
   }
   else if(selectedbtn == "insertion")
   {
