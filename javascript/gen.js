@@ -53,6 +53,11 @@ document.querySelector('.insertion').addEventListener('click', () => {
   document.querySelector('#title').innerHTML = `${selectedbtn} sort`
   console.log(selectedbtn)
 })
+document.querySelector('.heap').addEventListener('click', () => {
+  selectedbtn = "heap"
+  document.querySelector('#title').innerHTML = `${selectedbtn} sort`
+  console.log(selectedbtn)
+})
 
 
 
@@ -82,6 +87,10 @@ document.querySelector('#sort').addEventListener('click', async () => {
   else if(selectedbtn == "selection")
   {
     selection().then();
+  }
+  else if(selectedbtn == "heap")
+  {
+    heap().then();
   }
 })
 

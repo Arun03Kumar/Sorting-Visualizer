@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   body{
     /* background: #151D3B; */
@@ -146,7 +147,6 @@
     text-transform: capitalize;
     text-align: center;
     position: relative;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     top: 20px;
   }
 

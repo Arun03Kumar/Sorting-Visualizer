@@ -33,6 +33,12 @@ async function selection()
     arr[i].style.border = '2px solid #00AF91';
     arr[pos].style.background = 'rgba(105, 48, 195, 0.38)'
     arr[pos].style.border = '2px solid #6930C3'
-   
+  }
+
+
+  for(let k = 0; k < arr.length; k++)
+  {
+    arr[k].style.backgroundColor = 'rgba(0, 175, 145, 0.38)';
+    arr[k].style.border = '2px solid #00AF91';
   }
 }
