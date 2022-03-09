@@ -76,6 +76,7 @@ document.querySelector('#sort').addEventListener('click', async () => {
   }
   else if(selectedbtn == "insertion")
   {
+    // let arr = document.querySelectorAll('.bar')
     insertion().then();
   }
   else if(selectedbtn == "selection")

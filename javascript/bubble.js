@@ -12,9 +12,9 @@ async function bubble(){
         swap(element[j], element[j+1]);
         await waitforme(delay);
       }
-      element[j].style.background = 'rgba(245, 134, 52, 0.38)';
+      element[j].style.background = 'rgba(245, 134, 52, 0.38)'
       element[j].style.border = '2px solid #F58634'
-      element[j+1].style.background = 'rgba(245, 134, 52, 0.38)';
+      element[j+1].style.background = 'rgba(245, 134, 52, 0.38)'
       element[j+1].style.border = '2px solid #F58634'
     }
     element[element.length-1-i].style.backgroundColor = 'rgba(0, 175, 145, 0.38)';
